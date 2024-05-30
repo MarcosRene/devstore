@@ -24,7 +24,7 @@ describe('add product to cart', () => {
   })
 
   it('should be able to search for a product and add it to the cart', () => {
-    cy.searchByQuery('moleton')
+    cy.searchByQuery('moletom')
 
     cy.get('a[href^="/product"]').first().click()
 
